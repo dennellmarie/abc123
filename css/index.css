@@ -1,0 +1,23 @@
+.card {
+	width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.board {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border: 2px dotted red;
+}
+
+.card-text {
+	color: blue;
+}
+
+.card-list {
+	margin: 30px;
+	border: 1px dashed black;
+}
