@@ -1,27 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight|Open+Sans');
+
 * {
-	text-align: center
+	text-align: center;
+	justify-content: center;
+	background-color: #009688;
 }
 
 .card {
 	width: 150px;
     text-align: center;
-    border: 1px solid black;
+    border-radius: 5px;
     padding: 10px;
     margin: 10px;
+    background-color: white;
 }
 
 .board {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	border: 2px dotted red;
+	border: 2px dotted #B2EBF2;
+	text-align: center;
+	align-items: center;
+}
+
+.board-title {
+	text-align: center !important;
+	color: #4d4d4d;
+	width: 100%;
+	font-size: 42px;
+	font-family: 'Limelight', cursive;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.list-title {
+	overflow: scroll;
+	color: #4d4d4d;
+	background-color: lightgrey;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .card-text {
-	color: blue;
+	color: #212121;
+	overflow: scroll;
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
 }
 
 .card-list {
 	margin: 30px;
-	border: 1px dashed black;
+	border-radius: 5px;
+	justify-content: center;
+	background-color: lightgray;
+	padding: 10px;
+}
+
+.whole-form {
+	background-color: lightgray;
+	border-radius: 5px; 
+}
+
+.form {
+	padding: 5px;
+	display: block;
+	background-color: lightgray;
+	color: white;
+	border-radius: 5px; 
+}
+
+input[type="text"], textarea {
+  background-color : white;
+  border-radius: 5px; 
+  height: 20px;
+  width: 165px;
+
+}
+
+.button-bg {
+	background-color: lightgray;
+	border-radius: 5px;
+}
+
+.button {
+	margin: 10px;
+	border-radius: 5px;
+	color: white;
+	background-color: #B2DFDB;
+	font-size: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
 }

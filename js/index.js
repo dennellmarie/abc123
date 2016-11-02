@@ -5,9 +5,9 @@ const ReactDOM = require('react-dom')
 const List = require('./components/List')
 const Card = require('./components/Card')
 const Board = require('./components/Board')
-const Trello = require('./components/Trello')
+const ListContainer = require('./components/ListContainer')
 
 document.addEventListener('DOMContentLoaded', function() {
-	ReactDOM.render(<Trello />, document.getElementById('app'))
+	ReactDOM.render(<ListContainer />, document.getElementById('app'))
 })
 

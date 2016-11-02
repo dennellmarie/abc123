@@ -12,10 +12,12 @@ const AddCardForm = React.createClass({
 	},
 	render () {
 		return (
-			<form onSubmit={this.onSubmit}>
-				<input type="text" ref="textInput" />
-				<button>Add Card</button>
-			</form>
+			<div className="whole-form">
+				<form className="form" onSubmit={this.onSubmit}>
+					<input type="text" ref="textInput" />
+					<div className="button-bg"><button className="button">+</button></div>
+				</form>
+			</div>
 		)
 	}
 })
