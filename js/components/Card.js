@@ -7,8 +7,8 @@ const Card = (props) => (
 	<div className='card-list'>
 		<h3 className='list-title'>{props.title}</h3>
 		{props.flipped ? <img src={props.image} width='150' height='150' /> : 
-			<div className='card'>
-				<p className='card-text'>{props.cards[0]}</p>
+			<div className='word'>
+				<p className='card-text'>{props.word}</p>
 			</div>
 		}
 		<AddCardForm onClickLetter={props.onClickLetter} />

@@ -8,104 +8,104 @@ const ListContainer = React.createClass({
 			lists: [
 				{
 					title: 'A',
-					cards: ['apple'],
+					word: 'apple',
 					image: 'https://thumbs.dreamstime.com/x/wooden-alphabet-blocks-eps-11018061.jpg'
 				},
 				{
 					title: 'B',
-					cards: ['boat']
+					word: 'boat'
 				},
 				{
 					title: 'C',
-					cards: ['cat']
+					word: 'cat',
 				},
 				{
 					title: 'D',
-					cards: ['dog']
+					word: 'dog',
 				},
 				{
 					title: 'E',
-					cards: ['elephant']
+					word: 'elephant',
 				},
 				{
 					title: 'F',
-					cards: ['frog']
+					word: 'frog',
 				},
 				{
 					title: 'G',
-					cards: ['ghost']
+					word: 'ghost',
 				},
 				{
 					title: 'H',
-					cards: ['hat']
+					word: 'hat',
 				},
 				{
 					title: 'I',
-					cards: ['ice cream']
+					word: 'ice cream',
 				},
 				{
 					title: 'J',
-					cards: ['jack-in-the-box']
+					word: 'jack-in-the-box',
 				},
 				{
 					title: 'K',
-					cards: ['kite']
+					word: 'kite',
 				},
 				{
 					title: 'L',
-					cards: ['lollipop']
+					word: 'lollipop',
 				},
 				{
 					title: 'M',
-					cards: ['mouse']
+					word: 'mouse',
 				},
 				{
 					title: 'N',
-					cards: ['nest']
+					word: 'nest',
 				},
 				{
 					title: 'O',
-					cards: ['octopus']
+					word: 'octopus',
 				},
 				{
 					title: 'P',
-					cards: ['pig']
+					word: 'pig',
 				},
 				{
 					title: 'Q',
-					cards: ['queen']
+					word: 'queen',
 				},
 				{
 					title: 'R',
-					cards: ['rainbow']
+					word: 'rainbow',
 				},
 				{
 					title: 'S',
-					cards: ['starfish']
+					word: 'starfish',
 				},
 				{
 					title: 'T',
-					cards: ['turtle']
+					word: 'turtle',
 				},
 				{
 					title: 'U',
-					cards: ['unicorn']
+					word: 'unicorn',
 				},
 				{
 					title: 'V',
-					cards: ['viking']
+					word: 'viking',
 				},
 				{
 					title: 'X',
-					cards: ['xylophone']
+					word: 'xylophone',
 				},
 				{
 					title: 'Y',
-					cards: ['yarn']
+					word: 'yarn',
 				},
 				{
 					title: 'Z',
-					cards: ['zebra']
+					word: 'zebra',
 				}
 			]
 		}
