@@ -139,7 +139,6 @@ const ListContainer = React.createClass({
 		let lists = this.state.lists.concat(); 
 
 		lists[index].flipped = !lists[index].flipped;
-		console.log(lists[index]);
 		
 		this.setState({
 			lists: lists
