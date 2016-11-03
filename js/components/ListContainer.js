@@ -149,8 +149,6 @@ const ListContainer = React.createClass({
 	render () {
 		return <Board title={this.state.title} lists={this.state.lists} onClickLetter={this.onClickLetter} />
 	}
-})
-
-
+});
 
 module.exports = ListContainer;
