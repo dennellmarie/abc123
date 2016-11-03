@@ -4,34 +4,121 @@ const Board = require('./board')//
 const ListContainer = React.createClass({
 	getInitialState () {
 		return {
-			title: 'everyday thoughts',
+			title: 'Easy as ABC',
 			lists: [
 				{
-					title: 'head bangers',
-					cards: ['syntax errors', 'documentation', 'trello boards']
+					title: 'A',
+					cards: ['apple'],
+					image: 'https://thumbs.dreamstime.com/x/wooden-alphabet-blocks-eps-11018061.jpg'
 				},
 				{
-					title: 'programming funnies',
-					cards: ['commitlogsfromlastnight.com', 'httpcats.com', 'http://imgur.com/fuDDhdL']
+					title: 'B',
+					cards: ['boat']
 				},
 				{
-					title: 'perks of programming',
-					cards: ['free pizza at meetups', 'working in pjs', 'all the foods']
+					title: 'C',
+					cards: ['cat']
 				},
 				{
-					title: 'foreign languages',
-					cards: ['python', 'cobol', 'DeScribe Macro Language']
+					title: 'D',
+					cards: ['dog']
+				},
+				{
+					title: 'E',
+					cards: ['elephant']
+				},
+				{
+					title: 'F',
+					cards: ['frog']
+				},
+				{
+					title: 'G',
+					cards: ['ghost']
+				},
+				{
+					title: 'H',
+					cards: ['hat']
+				},
+				{
+					title: 'I',
+					cards: ['ice cream']
+				},
+				{
+					title: 'J',
+					cards: ['jack-in-the-box']
+				},
+				{
+					title: 'K',
+					cards: ['kite']
+				},
+				{
+					title: 'L',
+					cards: ['lollipop']
+				},
+				{
+					title: 'M',
+					cards: ['mouse']
+				},
+				{
+					title: 'N',
+					cards: ['nest']
+				},
+				{
+					title: 'O',
+					cards: ['octopus']
+				},
+				{
+					title: 'P',
+					cards: ['pig']
+				},
+				{
+					title: 'Q',
+					cards: ['queen']
+				},
+				{
+					title: 'R',
+					cards: ['rainbow']
+				},
+				{
+					title: 'S',
+					cards: ['starfish']
+				},
+				{
+					title: 'T',
+					cards: ['turtle']
+				},
+				{
+					title: 'U',
+					cards: ['unicorn']
+				},
+				{
+					title: 'V',
+					cards: ['viking']
+				},
+				{
+					title: 'X',
+					cards: ['xylophone']
+				},
+				{
+					title: 'Y',
+					cards: ['yarn']
+				},
+				{
+					title: 'Z',
+					cards: ['zebra']
 				}
 			]
 		}
 	},
 
-	onAddSubmit (index, text) {
-		let lists = this.state.lists.concat()    
+	onClickLetter (index, text) {
+		let lists = this.state.lists  
 
 		lists[index] = {
 			title: lists[index].title,
-			cards: lists[index].cards.concat(text)
+			cards: lists[index].cards,
+			image: lists[index].image.concat()
+
 		}
 		this.setState({
 			lists: lists
@@ -39,8 +126,7 @@ const ListContainer = React.createClass({
 	},
 
 	render () {
-		console.log(this.state)
-		return <Board title={this.state.title} lists={this.state.lists} onAddSubmit={this.onAddSubmit} />
+		return <Board title={this.state.title} lists={this.state.lists} onClickLetter={this.onClickLetter} />
 	}
 })
 

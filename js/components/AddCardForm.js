@@ -1,25 +1,24 @@
 const React = require('react')
 
 const AddCardForm = React.createClass({
-	onSubmit (e) {
-		e.preventDefault()
+	onClick (e) {
+		e.preventDefault();
 
-		if(!this.props.onAddSubmit) {
+		if(!this.props.onClickLetter) {
 			return
 		}
+		console.log(this.props.onClickLetter(this.props.image));
 
-		this.props.onAddSubmit(this.refs.textInput.value)
 	},
 	render () {
 		return (
-			<div className="whole-form">
-				<form className="form" onSubmit={this.onSubmit}>
-					<input type="text" ref="textInput" />
-					<div className="button-bg"><button className="button">+</button></div>
-				</form>
-			</div>
+			
+			// <a href={props.image}  props.title />//link
+			<button className="button" onClick={this.onClick}>+</button>	//click option		
 		)
 	}
 })
 
 module.exports = AddCardForm
+
+//ask Chris if we can put word from ListContainer on button
