@@ -112,14 +112,11 @@ const ListContainer = React.createClass({
 	},
 
 	onClickLetter (index, text) {
-		let lists = this.state.lists  
+		let lists = this.state.lists.concat(); 
 
-		lists[index] = {
-			title: lists[index].title,
-			cards: lists[index].cards,
-			image: lists[index].image.concat()
-
-		}
+		lists[index].flipped = !lists[index].flipped;
+		console.log(lists[index]);
+		
 		this.setState({
 			lists: lists
 		})
