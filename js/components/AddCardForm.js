@@ -14,7 +14,7 @@ const AddCardForm = React.createClass({
 		return (
 			
 			// <a href={props.image}  props.title />//link
-			<button className="button" onClick={this.onClick}>+</button>	//click option		
+			<button className="button" onClick={this.onClick}><img src='https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-image-128.png' width='25' /></button>	//click option		
 		)
 	}
 })
