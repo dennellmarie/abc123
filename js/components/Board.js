@@ -1,5 +1,7 @@
-const React = require('react')
-const Block = require('./Block')
+import React from 'react';
+import chai from 'chai';
+import TestUtils from 'react-addons-test-utils';
+import Block from './Block';
 
 let colors = ["blue", "red", "green", "yellow"];
 
