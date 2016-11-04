@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight|Poiret+One');
+
+* {
+	text-align: center;
+	justify-content: center;
+	background-color: white;
+}
+
+.word {
+	width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #ffe4b5;
+    display: block;
+}
+
+.board {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border: 5px dashed red;
+	text-align: center;
+	align-items: center;
+}
+
+.board-title {
+	text-align: center !important;
+	color: #4d4d4d;
+	width: 100%;
+	font-size: 100px;
+	font-family: 'Poiret One', cursive;
+	margin: 20px 0;
+}
+
+.block-title {
+	background-color: #ffe4b5;
+	font-family: 'Limelight', cursive;
+	text-shadow: -2px -2px 2px #fff, 2px 2px 2px #000;
+	font-size: 100px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.word-text {
+	color: #212121;
+	background-color: #ffe4b5;
+	font-family: 'Poiret One', cursive;
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	font-size: 24px;
+	margin-top: 4px;
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+.block-list {
+	margin: 30px;
+	border-radius: 5px;
+	justify-content: center;
+	background-color: #ffe4b5;
+	padding: 10px;
+	border: 3px solid;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.button {
+	border-radius: 5px;
+	background-color: white;
+	display: inline-block;
+	float: right;
+	margin-right: -10px;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+
