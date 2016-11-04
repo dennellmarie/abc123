@@ -33,7 +33,7 @@
 	margin: 20px 0;
 }
 
-.list-title {
+.block-title {
 	background-color: #ffe4b5;
 	font-family: 'Limelight', cursive;
 	text-shadow: -2px -2px 2px #fff, 2px 2px 2px #000;
@@ -43,7 +43,7 @@
 	padding: 0;
 }
 
-.card-text {
+.word-text {
 	color: #212121;
 	background-color: #ffe4b5;
 	font-family: 'Poiret One', cursive;
@@ -54,7 +54,7 @@
 	display: inline-block;
 }
 
-.card-list {
+.block-list {
 	margin: 30px;
 	border-radius: 5px;
 	justify-content: center;

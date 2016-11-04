@@ -2,9 +2,9 @@ require('babel-polyfill');
 
 const React = require('react')
 const ReactDOM = require('react-dom')
-const ListContainer = require('./components/ListContainer')
+const BoardContainer = require('./components/BoardContainer')
 
 document.addEventListener('DOMContentLoaded', function() {
-	ReactDOM.render(<ListContainer />, document.getElementById('app'))
+	ReactDOM.render(<BoardContainer />, document.getElementById('app'))
 })
 
