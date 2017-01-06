@@ -1,6 +1,6 @@
-# Thinkful React Starter
+# Easy as ABC
 
-A template for developing React apps.
+An interactive learning application for young children using React.
 
 ## Getting started
 
